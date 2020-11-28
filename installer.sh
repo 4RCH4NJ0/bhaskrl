@@ -26,5 +26,6 @@ else
     echo "Tudo Certo, para usar o programa digite: bhaskaralho, caso não instale pode rodar o arquivo .rb"
 fi
 #[===Modo-Kamikaze===]#
-cd .. && rm -Rf bsk
+#_____↓↓↓qualquer coisa comenta a linha de baixo↓↓↓____#
+cd .. && rm -Rf bhaskrl
 
