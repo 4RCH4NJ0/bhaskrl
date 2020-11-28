@@ -6,6 +6,8 @@
 #|   CRIADOR: 4RCH4NJ0                               |
 #|   GITHUB: https://github.com/4RCH4NJ0             |
 #|___________________________________________________|   
+loop do
+
 puts
 texto = "Vamos resolver Bhaskara"
 puts texto
@@ -34,6 +36,7 @@ puts "1ª Não se esqueça de escrever o delta"
 puts "2ª Nem de colocar as 2"
 puts "Os professores sempre pedem, por isso mostro"
 puts
+end
 #[----------------------------------]
 #|============END-C0DE==============|
 #|__________________________________|
