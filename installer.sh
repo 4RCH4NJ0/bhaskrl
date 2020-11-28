@@ -4,8 +4,8 @@ sleep .7
 echo ""
 if [ -e "/usr/bin/ruby" ]; then
     echo "O arquivo existe,instalando"
-    mv -v bhaskaralho /usr/bin
-    mv -v bask.rb /usr/bin
+#    mv -v bhaskaralho /usr/bin
+ #   mv -v bask.rb /usr/bin
     sleep .5
     echo "Programa Instalado Com Sucesso!"
 else
@@ -21,11 +21,10 @@ sleep 1
 clear
 if [ -f "/usr/bin/figlet" ]; then
     figlet Tudo Certo!
-    echo "Para usar o programa digite: bhaskaralho, caso não instale pode rodar o arquivo .rb"
+    echo -e "Para usar o programa digite:\033[1;32m bhaskaralho\033[0m Para usar o programa digite o ruby e arquivo.rb"
 else
-    echo "Tudo Certo, para usar o programa digite: bhaskaralho, caso não instale pode rodar o arquivo .rb"
+    echo -e "Para usar o programa digite:\033[1;32m bhaskaralho\033[0m Para usar o progra digite o ruby e arquivo.rb"
 fi
 #[===Modo-Kamikaze===]#
 #_____↓↓↓qualquer coisa comenta a linha de baixo↓↓↓____#
-cd .. && rm -Rf bhaskrl
-
+#cd .. && rm -Rf bhaskrl
